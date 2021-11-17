@@ -4,4 +4,4 @@ Para realizar la configuración de una nueva zona creamos un archivo llamado db.
   
 Para comprobar el funcionamiento de la zona primero reiniciamos el servicio de Bind9. Una vez reiniciado nos conectamos a nuestro contenedor cliente y realizamos un ping a nuestra dirección de la zona en mi caso example.com  
   
-Si la zona funciona el resultado del ping debería devolver la ip que nosotros le asignamos. Para más compobaciones puede añadir a la zona un registro txt y realizamos un dig txt y nos debería devolve rel registro.
+Si la zona funciona el resultado del ping debería devolver la ip que nosotros le asignamos. Para más compobaciones puede añadir a la zona un registro txt y realizamos un dig txt y nos debería devolver el registro.
